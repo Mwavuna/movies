@@ -6,7 +6,7 @@ const App = () => {
 
     const handleFetch = async () => {
         try {
-            const response = await fetch('https://cors.rf.gd/api.php', {
+            const response = await fetch('https://cors.rf.gd/index.php', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json'
