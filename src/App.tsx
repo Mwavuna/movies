@@ -7,7 +7,7 @@ const App = () => {
 
     const handleFetch = async () => {
         try {
-            const response = await axios.get('cors.rf.gd/index.php');
+            const response = await axios.get('https://cors.rf.gd/index.php');
 
             // const response = await axios.get('http://moviesbackend-production-e4a9.up.railway.app');
             console.log('Response data:', response.data);
