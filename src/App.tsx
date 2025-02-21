@@ -7,7 +7,7 @@ const App = () => {
 
     const handleFetch = async () => {
         try {
-            const response = await axios.get('https://cors.rf.gd/index.php');
+            const response = await axios.get('https://c1c1-197-248-21-245.ngrok-free.app/');
             // const response = await axios.get('http://moviesbackend-production-e4a9.up.railway.app');
 
             console.log('Response data:', response.data);
@@ -22,7 +22,7 @@ const App = () => {
         <div className="flex flex-col items-center justify-center min-h-screen">
             <h1 className="text-2xl font-bold mb-4">CORS Test with Axios</h1>
             <button onClick={handleFetch} className="bg-blue-500 text-white px-4 py-2 rounded-lg">
-                Fetch Messagegi
+                Fetch Messageg
             </button>
             {message && <p className="mt-4 text-green-500">{message}</p>}
         </div>
