@@ -8,8 +8,11 @@ const App = () => {
     const handleFetch = async () => {
         try {
             const response = await axios.get('https://c1c1-197-248-21-245.ngrok-free.app/');
+<<<<<<< HEAD
             // const response = await axios.get('http://moviesbackend-production-e4a9.up.railway.app');
 
+=======
+>>>>>>> bb2fa966c4d5270e0f05245b23978db5906a84be
             console.log('Response data:', response.data);
             setMessage(response.data.message);
         } catch (error) {
