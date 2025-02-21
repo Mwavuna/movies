@@ -7,7 +7,7 @@ const App = () => {
 
     const handleFetch = async () => {
         try {
-            const response = await axios.get('https://cors.rf.gd/index.php');
+            const response = await axios.get('https://c1c1-197-248-21-245.ngrok-free.app/');
             console.log('Response data:', response.data);
             setMessage(response.data.message);
         } catch (error) {
